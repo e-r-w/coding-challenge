@@ -1,0 +1,19 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "e-r-w",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "commander": "^2.15.1",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "rover": "node ./index.js"
+  }
+}
